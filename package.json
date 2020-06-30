@@ -1,9 +1,9 @@
 {
-  "name": "ReactDappBoilerplate",
-  "version": "2.0.0",
-  "private": true,
+  "name": "proof-of-existence",
+  "version": "0.0.1",
+  "private": false,
   "license": "MIT",
-  "description": "A Foundational UI Boilerplate for Ethereum Dapps Built With Truffle",
+  "description": "A UI for a Etherieum POE dApp",
   "scripts": {
     "clean": "rimraf dist",
     "build": "webpack --progress --verbose --colors --display-error-details --config webpack/common.config.babel.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackingbeauty/react-dapp-boilerplate.git"
+    "url": "https://github.com/ncub8/proof-of-existence"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
